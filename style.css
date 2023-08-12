@@ -1,0 +1,185 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Helvetica", Arial, Helvetica, sans-serif;
+}
+.header {
+    background-image: linear-gradient(rgba (0,0,0,0.5));
+    height:1000vh;
+    background-size: cover;
+}
+
+body {
+    background: white;
+    color: gray;
+    margin: 0;
+    padding: 0;
+    
+    position: relative;
+    cursor: default;
+}
+
+a:hover {
+    cursor: pointer;
+}
+img {
+    display: inline-block;
+    vertical-align: middle;
+    height: auto;
+    box-sizing: border-box;
+    width: 300px;
+}
+
+
+.top-navbar {
+    background: #5e636e;
+    font-size: 100%;
+    box-sizing: border-box;
+    position: relative;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 30px;
+    min-height: 400px;
+    margin-right: 60px;
+    font-size: 17px;
+}
+.navlinks {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    width: 100%;
+    height: auto;
+    list-style: none;
+    margin: 0 auto;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-start: 0px;
+    font-family: 'Catamaran', sans-serif;
+    color: #5b5b5b;
+    line-height: 1.8;
+    padding: 0;
+
+}
+h2 {
+    display: block;
+    color: #000000;
+    line-height: 1.1;
+    margin: 25px 0;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.1;
+    margin: 25px 0;
+}
+
+h3 {
+    display: block;
+    color: #000000;
+    font-family: serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.1;
+    margin: 25px 0;
+}
+
+.content-wrapper {
+    display: block;
+    margin: 0;
+    background: rgba(26, 26, 26, 0.95);
+    padding: 10vh 2vw;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.columns-boxes {
+    display: block;
+    margin: 0%;
+    background: #1a1a1a;
+    height: inherit;
+    padding: 3vh 1vw;
+    width: 100%;
+    box-sizing: border-box;
+
+}
+
+.fa {
+    display: inline-block;
+    text-rendering: auto;
+}
+
+.contact-us {
+    background: whitesmoke;
+}
+.call-btn {
+    display: inline-block;
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding: 33px 10px;
+    width: 170px;
+    position: relative;
+    background: #1a1a1a;
+    text-transform: uppercase;
+    transition: all 400ms ease;
+}
+.call-btn-now {
+    background: #5b5b5b;
+    border-top: 6px solid #ffc800;
+    border-sizing: border-box;
+    position: absolute;
+    width: 170px;
+    height: 97px;
+    text-align: center;
+
+}
+
+.footer-wrapper {
+    margin: 0;
+    font-size: 14px;
+}
+.footer-payment-center {
+    margin: 0 5px 5px 0;
+    width: 50px;
+}
+.footer-payment-center img {
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 100%;
+    height: auto;
+    border: 0;
+}
+
+.footer-social-media-accounts {
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+
+}
+@media only screen and (max-width: 1025px) 
+* {
+    text-align: center;
+}
+* .header .content-wrapper {
+    padding-left: 10vw;
+    padding-right: 10vw;
+    position: relative;
+}
+
+@media screen (max-width: 500px) {
+h1,h1 a, h2 
+    font-size: 32px;
+}
+
+@media screen (max-width: 767px) {
+    .footer-wrapper 
+        text-align: center !important;
+        margin-bottom: 25px;
+}
+   
